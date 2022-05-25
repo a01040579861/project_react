@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const Score = (props) => {
     const { day } = useParams();
-    //console.log({day})//요일
     
     // 라우팅
     const history = useHistory();
